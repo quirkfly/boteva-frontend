@@ -11,7 +11,8 @@ This is the frontend application for the Personal Banker Assistant, built using 
 
 ## Screenshot
 
-![A real-time interaction between user and virtual assistant in Slovak](images/boteva_ui_screenshot.png)
+![A real-time rule-based interaction between user and chatbot Adam](images/adam_ui_screenshot.png)
+![A real-time context-free interaction between user and boteva](images/boteva_ui_screenshot.png)
 
 ## 📦 Tech Stack
 
