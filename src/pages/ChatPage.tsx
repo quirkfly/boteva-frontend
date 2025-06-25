@@ -41,7 +41,7 @@ const ChatPage: React.FC = () => {
       const response = await fetch(`http://localhost:8080/api/assistant/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ clientId: clientId, message: input })
+        body: JSON.stringify({ clientId: clientId, messages: newMessages })
       });
 
       const data = await response.json();
